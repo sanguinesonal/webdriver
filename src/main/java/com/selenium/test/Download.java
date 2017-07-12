@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Download {
 	
 	public static void main(String[] args) throws IOException, Exception {
-	System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "chromedriver");
 	WebDriver driver = new ChromeDriver();
 	driver.get("http://www.smilebox.com/");
 	Thread.sleep(20000);
