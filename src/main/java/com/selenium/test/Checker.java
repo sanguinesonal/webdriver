@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Checker {
 	static void getPartnerValueString(String s) throws InterruptedException {
 		System.out.println("STARTING TEST CASE FOR THE URL ENTERED : " + s);
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get(s);
